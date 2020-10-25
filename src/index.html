@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SismoTexts</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <section>
+        <h3>
+            This Tool is a demo to visualise word occurences in a text. <br>
+            A line connects the word "Alice" every time it
+            appears in the text.
+        </h3>
+    </section>
+    <section>
+        <label>Upload a different text</label><input type="file" multiple />
+        <br><br><label>Search for a word</label>
+        <input type="input" class="chooseWord" />
+        <br><br><label>Choose the size of the Font</label>
+        <input type="number" class="chooseFontSize" value="3" />
+    </section>
+    <section class="textVis"></section>
+    <svg width="1024" height="40000" class="visualisation"></svg>
+
+</body>
+
+</html>

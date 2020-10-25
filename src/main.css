@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #444;
+    margin: 1rem;
+    text-rendering: optimizeLegibility;
+    user-select: none;
+}
+
+
+h3{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+input{
+    z-index: 10;
+    position: relative;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+section {
+    z-index: 0;
+    width: 1024px;
+    background: rgb(235, 235, 235);
+    margin-top: 20px;
+    padding: 5px;
+    /* margin-top: 110px; */
+}
+
+.highlight {
+    color: black;
+    r:2;
+}
+.line{
+    stroke: dodgerblue;
+    opacity: .7;
+    stroke-width: 5;
+}
+.circle{
+    fill: darkorchid;
+}
+
+.visualisation {
+    z-index: 1;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+
+.textVis{
+    font-size: 3px
+}
